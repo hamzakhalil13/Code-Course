@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Contact Us</title>
+	<link rel="stylesheet" type="text/css" href="contact.css">
+<!-- 	<script type="text/javascript" src="contact.js"></script>
+ --></head>
+<body>
+	<ul>
+		<li><a href="Final_project.html">HOME</a></li>
+	</ul>
+	<div class="contact-title">
+		<h1>Contact Us</h1>
+		<h2>Get In Touch With The Right People</h2>
+
+	</div>
+
+	<div class="contact-form">
+		
+		<form action="contact.php" method="POST" id="contact-form">
+			<input type="text" name="name" class="form-control" placeholder="Your Name" required><br>
+
+			<input type="text" name="email" class="form-control" placeholder="Your Email" reequired><br>
+
+			<textarea id="charCounter" name="message" class="form-control" placeholder="Message" rows="4"  maxlength="200" required></textarea><br>
+
+			<p id="result"></p>
+			
+			<input type="submit" class="form-control submit" id="submit" value="Send Message">
+		</form>
+
+	</div>
+	<script type="text/javascript" src="contact.js"></script>
+	<div class="reach">
+		<h1>Reach Us</h1>
+		<h4>tarifiInc@gmail.com</h4>
+	</div>
+</body>
+</html>

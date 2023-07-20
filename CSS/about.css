@@ -1,0 +1,129 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+ul, i{
+  text-align: center;
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+}
+ul,li,a{
+
+  text-align: center;
+  color: #001995;
+  text-decoration: none;
+  font-size: 15px;
+}
+li::after{ 
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: #001995;
+  display: block;
+  margin: auto ;
+  transition: all 0.5s ;
+}
+ul,li:hover:after{
+
+  width: 20%;
+}
+.header{
+  background: linear-gradient(rgba(4, 9, 30, 0.7),rgba(4, 9, 30, 0.7)), url("about2.webp");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;   
+  margin-bottom: 50px;
+  height: 480px; 
+  position: flex;
+  margin-top: 50px;
+  width: 100%;
+
+}
+#first_h1{
+  color: #fff;
+  left: 0;    line-height: 200px;
+  text-align: center;
+  top: 50%;
+  width: 100%;
+  font-size: 36px;
+  
+}
+.header p{
+  color: #fff;
+  text-align: center;
+  padding: 6px;
+  
+  font-size: 20px;
+}
+.row{
+  margin-left: 10%;
+  padding: 0px;
+  margin-top: 2%;
+  justify-content: ;
+  margin-bottom: 5%;
+}
+.col{
+  width: 100%;
+  
+  padding: 6px;
+  color: #001995;
+  margin-top: 0%;
+  display: flex;
+  
+  margin-bottom: 2%;
+}
+.course_h3{
+  text-align: center;
+  font-weight: 600;
+  margin: 10px 0;
+}
+.miss_p{
+  margin-right: 300px;
+}
+.val_back{
+  background-color: #CCF5FD;
+}
+.row_val{
+  padding: 6px;
+  margin-top: 0%;
+  display: flex;
+  justify-content: space-between;
+}
+.col_val{
+  color: white;
+  flex-basis: 31%;
+  background: #001995;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  transition: 0.3s;
+  height: 150px;
+}
+.valu_h3{
+  text-align: center;
+  font-weight: 600;
+  margin: 10px 0;
+}
+.val_col:hover{
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.5);
+}
+#value{
+  margin-bottom: 2%;
+  text-align: center;
+  color: #001995;
+}
+
+
+
+
+
+
+
+
+
+
+
+

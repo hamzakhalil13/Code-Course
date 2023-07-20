@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Create Account</title>
+	<link rel="stylesheet" type="text/css" href="create_acc.css">
+	<script type="text/javascript" src="create_acc.js"></script>
+</head>
+<body>
+
+	<div class="container">
+	<form action="final.php" method="POST" class="form" id="createAccount">
+		<!--<img src="yt_profilepic.jpg" width="100" height="100"> -->
+
+		<h1 id="begin">Create Account</h1>
+
+		<div id="incor_combo" class="error_message"></div>
+
+		<div class="input_email">
+		<small class="top">Email Address</small><br>
+		
+		<input type="text" name="email" autofocus class="form_input" placeholder="name@example.com" id="email" required><br>
+		<div id="incor_pass1" class="error_message"></div>
+		<div id="incor_pass2" class="error_message"></div>
+		</div>
+
+		<div>
+		<small class="top">Password</small><br>
+		
+		<input type="password" name="pass" class="form_input" id="password1" placeholder="Password  min 8 characters" required><br>
+
+		<input type="checkbox" onclick="password()" value="pass1">
+		<label for="pass1">Show Password </label>
+		
+		</div>
+
+		<div>
+		<small class="top">Confirm Password</small><br>
+		
+		<input type="password" name="pass2" class="form_input" id="password2" placeholder="Password" required><br>
+		<input type="checkbox" onclick="conf_pass()" value="pass2">
+		<label for="pass2">Show Password </label>
+		
+		</div>
+		
+
+		<button id="sub_but" type="submit" onclick="errorMessage()">Continue</button>
+
+		
+
+		<p class="text_form">
+			<a class="link_to" href="file:///Users/hamzakhalil13/Desktop/CISC_3140/Final_Project/login_page.html?email=&pass=#" id="link_login">Already have an Account? Log in</a>
+		</p>
+
+		<p class="text_form">
+			<a class="link_to" href="Final_project.html">HOME</a>	
+		</p>
+	</form>
+	<!-- create account form -->
+	</div>
+
+</body>
+</html>
